@@ -9,7 +9,7 @@ const about = {
   name: 'Dimitri Kwihangana',
   role: 'Full stack Engineer',
   description:
-    'DImitri Kwihangana is a passionate developer with a passion for creating clean web and mobile applications. They enjoy turning ideas into reality and are always curious about learning new skills. They have experience working with creative teams, including daily stand-ups, communications, source control, and project management.',
+    "Hey there! I'm Dimitri Kwihangana a full stack engineer skilled in Python and JavaScript for web and mobile apps. I'm skilled in frontend and backend development, working with frameworks like React, Django, Node.js, and React Native. I'm comfortable with databases like MongoDB and MySQL, ensuring scalable and efficient solutions. I thrive in collaborative teams and I'm eager to work together to create amazing projects.",
   resume: 'https://example.com',
   social: {
     linkedin: 'https://www.linkedin.com/in/dimitri-kwihangana-529b8a247/',
