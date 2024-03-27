@@ -1,6 +1,6 @@
 import React from 'react';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import { about } from '../../portfolio';
 import './About.css';
 
@@ -42,7 +42,7 @@ const About = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <GitHubIcon />
+                <FaGithub />
               </a>
             )}
 
@@ -54,7 +54,7 @@ const About = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <LinkedInIcon />
+                <FaLinkedinIn/>
               </a>
             )}
           </>
