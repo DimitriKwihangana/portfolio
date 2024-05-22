@@ -22,56 +22,49 @@ const about = {
     image:'https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg'
   },
 }
-
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
     name: 'VE Databank',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    description: 'A databank built for a company that contains demographic and other data.',
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
     livePreview: 'https://vanguarddatabank.netlify.app/',
-    image:project1
+    image: project1
   },
   {
     name: 'Mudugudu platform',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    description: 'A mobile app that interacts with citizens and facilitates community activities.',
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: '',
     livePreview: '',
-    image:project4
+    image: project4
   },
   {
     name: 'Aflakiosk',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    description: 'A website for a company called Aflakiosk.',
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
-    livePreview: 'aflakiosk.com',
-    image:project3
+    livePreview: 'http://aflakiosk.com', // Corrected the live preview URL to include the protocol
+    image: project3
   },
   {
     name: 'BD',
-    description:
-      'Bussiness development dasboard',
+    description: 'A dashboard for business development.',
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
-    image:project2
+    image: project2
   },
   {
     name: 'Concierge',
-    description:'Bussiness development dasboard',
+    description: 'A website built for vacation purposes, available on the market for purchase.',
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://dimitrikwihangana.github.io/Concierge/',
     livePreview: 'https://dimitrikwihangana.github.io/Concierge/',
-    image:project5
+    image: project5
   },
-  
-]
+];
+
 
 const skills = [
   // skills can be added or removed
