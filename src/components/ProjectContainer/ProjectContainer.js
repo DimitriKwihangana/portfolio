@@ -1,11 +1,15 @@
-
 import { FaGithub } from "react-icons/fa";
 import { MdOutlineRocketLaunch } from "react-icons/md";
-import './ProjectContainer.css'
+import './ProjectContainer.css';
 
 const ProjectContainer = ({ project }) => (
   <div className='project'>
     <h3>{project.name}</h3>
+
+    {/* Add the image here */}
+    {project.image && (
+      <img src={project.image} alt={project.name} className='project__image' />
+    )}
 
     <p className='project__description'>{project.description}</p>
     {project.stack && (
@@ -38,6 +42,6 @@ const ProjectContainer = ({ project }) => (
       </a>
     )}
   </div>
-)
+);
 
-export default ProjectContainer
+export default ProjectContainer;

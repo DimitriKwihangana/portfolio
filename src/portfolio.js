@@ -1,6 +1,11 @@
-const header = {
+import project1 from '../src/project.png'
+import project2 from '../src/project2.png'
+import project3 from '../src/project3.png'
+import project4 from '../src/project4.jpg'
+import project5 from '../src/project5.png'
+  const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
+  homepage: '',
   title: 'DIM.',
 }
 
@@ -14,6 +19,7 @@ const about = {
   social: {
     linkedin: 'https://www.linkedin.com/in/dimitri-kwihangana-529b8a247/',
     github: 'http://github.com/DimitriKwihangana',
+    image:'https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg'
   },
 }
 
@@ -21,29 +27,50 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'VE Databank',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    livePreview: 'https://vanguarddatabank.netlify.app/',
+    image:project1
   },
   {
-    name: 'Project 2',
+    name: 'Mudugudu platform',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: '',
+    livePreview: '',
+    image:project4
   },
   {
-    name: 'Project 3',
+    name: 'Aflakiosk',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    livePreview: 'aflakiosk.com',
+    image:project3
   },
+  {
+    name: 'BD',
+    description:
+      'Bussiness development dasboard',
+    stack: ['SASS', 'TypeScript', 'React'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+    image:project2
+  },
+  {
+    name: 'Concierge',
+    description:'Bussiness development dasboard',
+    stack: ['SASS', 'TypeScript', 'React'],
+    sourceCode: 'https://dimitrikwihangana.github.io/Concierge/',
+    livePreview: '',
+    image:project5
+  },
+  
 ]
 
 const skills = [
