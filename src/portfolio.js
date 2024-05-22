@@ -67,7 +67,7 @@ const projects = [
     description:'Bussiness development dasboard',
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://dimitrikwihangana.github.io/Concierge/',
-    livePreview: '',
+    livePreview: 'https://dimitrikwihangana.github.io/Concierge/',
     image:project5
   },
   
