@@ -28,7 +28,7 @@ const projects = [
     description: 'A databank built for a company that contains demographic and other data.',
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
-    livePreview: 'https://vanguarddatabank.netlify.app/',
+    livePreview: '',
     image: project1
   },
   {
@@ -47,14 +47,14 @@ const projects = [
     livePreview: 'http://aflakiosk.com', // Corrected the live preview URL to include the protocol
     image: project3
   },
-  {
-    name: 'BD',
-    description: 'A dashboard for business development.',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: project2
-  },
+  // {
+  //   name: 'BD',
+  //   description: 'A dashboard for business development.',
+  //   stack: ['SASS', 'TypeScript', 'React'],
+  //   sourceCode: 'https://github.com',
+  //   livePreview: 'https://github.com',
+  //   image: project2
+  // },
   {
     name: 'Concierge',
     description: 'A website built for vacation purposes, available on the market for purchase.',
