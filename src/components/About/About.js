@@ -5,7 +5,7 @@ import { about } from '../../portfolio';
 import './About.css';
 
 // Importing just the resume path
-import resumePath from '../Skills/DimitriKwihangana.docx.pdf';
+import resumePath from '../Skills/Dimitrresume.pdf';
 
 const About = () => {
   const { name, role, description, social } = about;

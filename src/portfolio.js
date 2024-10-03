@@ -12,9 +12,9 @@ import project5 from '../src/project5.png'
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Dimitri Kwihangana',
-  role: 'Full stack Engineer',
+  role: 'Front-end Engineer',
   description:
-    "Hey there! I'm Dimitri Kwihangana a full stack engineer skilled in Python and JavaScript for web and mobile apps. I'm skilled in frontend and backend development, working with frameworks like React, Django, Node.js, and React Native. I'm comfortable with databases like MongoDB and MySQL, ensuring scalable and efficient solutions. I thrive in collaborative teams and I'm eager to work together to create amazing projects.",
+    "Hey there! I'm Dimitri Kwihangana a front end engineer skilled in Python and JavaScript for web and mobile apps. I'm skilled in frontend , working with frameworks like React and  Next.js, and React Native. I'm comfortable with databases like MongoDB and MySQL, ensuring scalable and efficient solutions. I thrive in collaborative teams and I'm eager to work together to create amazing projects.",
   resume: 'https://example.com',
   social: {
     linkedin: 'https://www.linkedin.com/in/dimitri-kwihangana-529b8a247/',
